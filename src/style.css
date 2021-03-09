@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.date-time-form {
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.error-msg {
+  color: black;
+  letter-spacing: 1px;
+}
+
+.react-datetime-picker {
+  padding-left: 10px;
+}
+
+.counter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: "center";
+}
+
+.counter .time {
+  margin-right: 20px;
+}
+
+.counter .time-value {
+  padding: 1px;
+  font-size: 5vw;
+  color: black;
+  line-height: 1;
+}
+
+.time-label {
+  text-align: center;
+  font-size: 10px;
+  color: black;
+}
