@@ -8,6 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
+        <>This is something to have for pull request</>
         <Timer endDate={"2021-03-23T22:00:00.000"} />
       </div>
     );

@@ -61,6 +61,7 @@ export default class Timer extends React.Component {
     const { days, hours, minutes, seconds, diff } = this.state;
     return diff > 0 ? (
       <div>
+        <>My sweet Timer</>
         <div className="counter">
           <div className="time">
             <div className="time-value">{days}</div>
